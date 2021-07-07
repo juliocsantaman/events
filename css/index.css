@@ -346,6 +346,7 @@
 /* SECTION 06 */
 .section-06 {
     background-color: #17231b;
+    padding-bottom: 2rem;
 }
 
 .section-06 .upcoming {
@@ -401,6 +402,7 @@
     margin-top: 2rem;
     padding: 1rem;
     text-align: center;
+    
 }
 
 .section-06 .matches .match-01 div h3 {
@@ -439,11 +441,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .section-07 div {
-    width: 50%;
+    width: 100%;
 }
 
 .section-07 div h2 {
