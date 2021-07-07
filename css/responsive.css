@@ -1,0 +1,219 @@
+/* 
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    
+    .section-05 .teams .team-01 .members {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-05 .teams .team-01 img {
+        margin: 2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* SECTION 01 */
+    .section-01 header .btns {
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+
+    .section-01 header .btns .btn-updates, .section-01 header .btns .btn-videos {
+        margin: 1rem;
+    }
+
+    .section-01 .video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* END OF SECTION 01 */
+
+    /* SECTION 02 */
+    .section-02 {
+        background-color: #17231b;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-02 div {
+        width: 30%;
+        margin-left: 5rem;
+    }
+
+    .section-02 img {
+        width: 30%;
+    }
+
+    .section-02 div .btn-read-more {
+        width: 40%;
+        margin: auto;
+    }
+    /* END OF SECTION 02 */
+
+    /* SECTION 03 */
+    .section-03 .carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-03 .carousel .info {
+        margin: 1rem;
+        margin-top: 4rem;
+    }
+    /* END OF SECTION 03 */
+
+    /* SECTION 04 */
+    .section-04 {
+        display: block;
+    }
+
+    .section-04 h2 {
+        text-align: start;
+        margin-left: 8%;
+    }
+
+    .section-04 .summer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-04 .summer img {
+        width: 20%;
+    }
+
+    .section-04 .info-01 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .section-04 .info-02 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 2rem;
+    }
+
+    .section-04 .info-02 .btn-read-more {
+        width: 40%;
+    }
+
+    .section-04 div h3, .section-04 div p {
+        text-align: start;
+    }
+    /* END OF SECTION 04 */
+
+    /* SECTION 05 */
+    .section-05 .teams {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-05 .teams .team-01 img {
+        width: 10%;
+        margin: unset;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+    /* END OF SECTION 05 */
+
+    /* SECTION 06 */
+    .section-06 .upcoming p {
+        width: 50%;
+    }
+
+    .section-06 .upcoming .btn-view-all {
+        width: 10%;
+    }
+
+    .section-06 .matches .match-01 {
+        display: flex;
+        align-items: unset;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        margin: unset;
+        margin: 1rem;
+    }
+
+    .section-06 .matches {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* END OF SECTION 06 */
+
+    /* SECTION 07 */
+    .section-07 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3rem;   
+    }
+
+    .section-07 div .btn-our-teams {
+        width: 30%;
+    }
+
+    .section-07 .info-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-07 div p {
+        text-align: start;
+        color: #ffffff;
+    }
+
+    .section-07 .info-profile .btn-view-profile {
+        width: 30%;
+    }
+    /* END OF SECTION 07 */
+
+    /* SECTION 08*/
+    .section-08 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .section-08 .icons {
+        margin-bottom: unset;
+    }
+    /* END OF  SECTION 08*/
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
