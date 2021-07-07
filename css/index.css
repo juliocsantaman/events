@@ -452,7 +452,8 @@
 .section-07 div h2 {
     text-align: center;
     color: var(--primary-text-color);
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Press Start 2P', cursive;
@@ -465,7 +466,7 @@
 }
 
 .section-07 div .btn-our-teams {
-    width: 50%;
+    width: 70%;
     display: block;
     color: var(--btn-color);
     font-weight: bold;
