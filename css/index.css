@@ -229,10 +229,8 @@
 .section-05 h2 {
     text-align: center;
     color: var(--primary-text-color);
-    font-size: 10vw;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 10px;
     font-family: 'Press Start 2P', cursive;
     padding-top: 2rem;
 }
@@ -295,3 +293,91 @@
 }
 
 /* END OF SECTION 05 */
+
+/* SECTION 06 */
+.section-06 {
+    background-color: #17231b;
+}
+
+.section-06 .upcoming {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-06 .upcoming h2 {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2rem;
+}
+
+.section-06 .upcoming p {
+    text-align: center;
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.section-06 .upcoming .btn-view-all {
+    width: 50%;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--btn-bg-02);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.section-06 .upcoming .btn-view-all:hover {
+    opacity: 0.7;
+}
+
+.section-06 .matches .match-01 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f1210;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.section-06 .matches .match-01 h3 {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.section-06 .matches .match-01 p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.section-06 .matches .match-01 .vs {
+    text-align: center;
+    color: #ffffff;
+    background-color: #17231b;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.section-06 .matches .match-01 img {
+    margin-top: 1rem;
+}
+
+.section-06 .matches .match-01 .team-name {
+    color: var(--primary-text-color);
+}
+/* END OF SECTION 06 */
