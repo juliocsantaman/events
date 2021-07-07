@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --primary-text-color: #3ddc84;
+    --btn-bg-01: #30ce6f;
+    --btn-bg-02: #68b587;
+}
+
+/* SECTION 01 */
+.section-01 {
+    background-color: #0f1210;
+}
+
+.section-01 header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 10vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2rem;
+}
+
+.section-01 header p {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-01 header .btn-updates, .section-01 header .btn-videos {
+    width: 100%;
+    display: inline-block;
+    color: #000000;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-01 header .btn-updates {
+    background-color: var(--btn-bg-02);
+}
+
+.section-01 header .btn-updates:hover {
+    opacity: 0.8;
+}
+
+.section-01 header .btn-videos {
+    background-color: var(--btn-bg-01);
+}
+
+.section-01 header .btn-updates:hover {
+    background-color: var(--btn-bg-01);
+}
+
+.section-01 .video-container div .video {
+    width: 250px;
+    height: 150px;
+    border: 0.5rem solid #30ce6f;
+    background-color: #000000;
+
+}
+
+.section-01 .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-01 .video-container div p, .section-01 .video-container div h3 {
+    text-align: center;
+}
+
+.section-01 .video-container div p {
+    color: var(--primary-text-color);
+    margin-top: 1rem;
+}
+
+.section-01 .video-container div h3 {
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section-01 .video-container {
+    margin-top: 2rem;
+}
