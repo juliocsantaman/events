@@ -101,9 +101,9 @@
 
 .section-01 .video-container div h3 {
     color: #ffffff;
-    margin: auto;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .section-01 .video-container {
