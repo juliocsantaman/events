@@ -137,3 +137,40 @@
 }
 
 /* END OF SECTION 02 */
+
+/* SECTION 03 */
+.section-03 {
+    background-color: #0f1210;
+}
+
+.section-03 .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-03 .carousel .info p {
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.section-03 .carousel .info h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.section-03 .carousel i {
+    color: #1a2a20;
+    border-radius: 100%;
+    background-color: #66b184;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.section-03 .carousel i:hover {
+    opacity: 0.7;
+}
+/* END OF SECTION 03 */
