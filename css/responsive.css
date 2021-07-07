@@ -138,6 +138,10 @@ No media query for `xs` since this is the default in Bootstrap
         margin: 0.5rem;
         cursor: pointer;
     }
+
+    .section-05 .teams .team-01 {
+        margin: unset;
+    }
     /* END OF SECTION 05 */
 
     /* SECTION 06 */
