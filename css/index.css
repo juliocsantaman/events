@@ -443,8 +443,8 @@
     align-items: center;
 }
 
-.section-07 div {
-    width: 100%;
+.section-07 div, .section-07 .info-profile {
+    width: 50%;
 }
 
 .section-07 div h2 {
