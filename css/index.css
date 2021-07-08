@@ -79,10 +79,11 @@
 .section-01 .video-container div .video {
     width: 250px;
     height: 150px;
-    border: 0.5rem solid #30ce6f;
-    background-color: #000000;
+    /* border: 0.5rem solid #30ce6f; */
+    /* background-color: #000000; */
     margin: 1rem;
-
+    padding: 1rem;
+    background-image: linear-gradient(340deg, rgba(55,14,58,0.09) 48%, #30ce6f 59%);
 }
 
 .section-01 .video-container {
