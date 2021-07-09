@@ -52,8 +52,10 @@ No media query for `xs` since this is the default in Bootstrap
     }
 
     .section-02 div {
+        display: block;
         width: 30%;
         margin-left: 5rem;
+        /* background-color: red; */
     }
 
     .section-02 img {
@@ -62,7 +64,22 @@ No media query for `xs` since this is the default in Bootstrap
 
     .section-02 div .btn-read-more {
         width: 40%;
-        margin: auto;
+        margin: 0%;
+    }
+
+    .section-02 div h2, .section-02 div p {
+        text-align: start;
+    }
+
+    .section-02 div p {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .section-02 div img {
+        width: 150px;
+        height: 170px;
+        margin-left: 2.5rem;
     }
     /* END OF SECTION 02 */
 
