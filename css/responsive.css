@@ -173,29 +173,29 @@ No media query for `xs` since this is the default in Bootstrap
     /* END OF SECTION 06 */
 
     /* SECTION 07 */
-    .section-07 {
+    .section-07 .subcontainer-section-07 {
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding: 3rem;   
     }
 
-    .section-07 div .btn-our-teams {
+    .section-07 .subcontainer-section-07 div .btn-our-teams {
         width: 30%;
     }
 
-    .section-07 .info-profile {
+    .section-07 .subcontainer-section-07 .info-profile {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .section-07 div p {
+    .section-07 .subcontainer-section-07 div p {
         text-align: start;
         color: #ffffff;
     }
 
-    .section-07 .info-profile .btn-view-profile {
+    .section-07 .subcontainer-section-07 .info-profile .btn-view-profile {
         width: 30%;
     }
     /* END OF SECTION 07 */
@@ -219,5 +219,3 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }
-
-
