@@ -1,2 +1,2 @@
 # events
-You can visit on: https://juliocsantaman.github.io/events/
+You can visit the page on: https://juliocsantaman.github.io/events/
